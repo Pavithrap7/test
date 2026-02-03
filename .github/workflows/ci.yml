@@ -19,9 +19,9 @@ jobs:
 
       - name: Pull Docker images
         run: |
-          docker pull yourdockerhubuser/image1:tag
-          docker pull yourdockerhubuser/image2:tag
-          docker pull yourdockerhubuser/image3:tag
+          docker pull pavithra222001/ecommerce:product-service.1
+          docker pull pavithra222001/ecommerce:payment-service.1
+          docker pull pavithra222001/ecommerce:user-service.1
 
       - name: List images
         run: docker images
