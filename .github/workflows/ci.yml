@@ -14,13 +14,5 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run Python script and save output
-        run: |
-          python hello.py > output.log 2>&1
-          cat output.log  # optional: still see in Actions UI
-
-      - name: Upload log as artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: workflow-log
-          path: output.log
-
+        run: 
+          python hello.py
