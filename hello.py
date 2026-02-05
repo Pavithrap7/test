@@ -1,6 +1,6 @@
 print("hello world")
 print("hello")
 
-def testfunc():
+def test_testfunc():
   print("hello this is test function ")
 testfunc()
